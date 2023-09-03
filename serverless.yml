@@ -1,4 +1,4 @@
-service: 13-3-vincent
+service: vincent-13-3
 frameworkVersion: '3'
 
 provider:
@@ -16,7 +16,7 @@ functions:
           path: /
           method: get
     environment:
-      ACCESS_KEY: ${ssm:ACCESS_KEY}
+      ACCESS_KEY: ${ssm:vincent-parameter}
 plugins:
   - serverless-offline
 
