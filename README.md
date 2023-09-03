@@ -1,4 +1,4 @@
-# 3.13_Unit_test_secrets
+# 3.13_Unit_test_secrets - Assignment submission
 
 
 ### Instructions:
@@ -33,7 +33,19 @@ This repo runs a CI/CD pipeline in GitHub Action to deploy a Lambda function in 
 - performing a vulnerability scan
 - displaying the secrets from AWS Secrets Parameter Store
 - deploying the Lambda function into AWS
+![Screenshot 2023-09-03 at 3 35 35 PM](https://github.com/vincent8055/3.13_Unit_test_secrets/assets/127754761/f297d06e-578d-4ec3-bb06-01d7c357f8ee)
+![Screenshot 2023-09-03 at 3 36 20 PM](https://github.com/vincent8055/3.13_Unit_test_secrets/assets/127754761/8c2d9852-b16d-444d-939f-ddbc27c1306c)
+
+
+
+
+
 4. Install node dependencies such as node, serverless, serveless-offline, jest
 5. Add in a index.test.js to test the application
 6. Add in a function to extract the secret in AWS Secrets Manager parameter store
 7. Include a function to display the secret in the Lambda function when invoked.
+![Screenshot 2023-09-03 at 3 37 13 PM](https://github.com/vincent8055/3.13_Unit_test_secrets/assets/127754761/1bd2778d-3b5b-4aa4-bf8d-546f34a6abca)
+
+![Screenshot 2023-09-03 at 3 39 50 PM](https://github.com/vincent8055/3.13_Unit_test_secrets/assets/127754761/7631d289-fdeb-4a31-8a01-5ac5652e763d)
+
+
