@@ -16,7 +16,7 @@ functions:
           path: /
           method: get
     environment:
-      ACCESS_KEY: ${ssm:vincent-parameter}
+      ACCESS_KEY: ${ssm:ACCESS_KEY}
 plugins:
   - serverless-offline
 
