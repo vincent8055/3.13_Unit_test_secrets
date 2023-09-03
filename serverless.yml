@@ -20,3 +20,5 @@ functions:
 plugins:
   - serverless-offline
 
+service: <CHANGE_TO_YOUR_PROJECT_NAME>
+frameworkVersion: '3'
